@@ -1,0 +1,9 @@
+{
+  "js": [
+    "PERCH_LOGINPATH/addons/plugins/editors/acesvg/src-min-noconflict/ace.js",
+    "PERCH_LOGINPATH/addons/plugins/editors/acesvg/perch/config.js"
+  ],
+  "css": [
+    "PERCH_LOGINPATH/addons/plugins/editors/acesvg/perch/ace.css"
+  ]
+}
