@@ -1,23 +1,21 @@
-# Cognetif AceSvg Editor
+Ace (Ajax.org Cloud9 Editor)
+============================
 
-## Description
-This is a SVG specific editor based on the ACE code editor plug in from Perch2, this plugin has been retro-fitted to work on Runway, and has only been tested on Runway.
-The editor adds a code editor with SVG syntax highlighting and an image live preview of the SVG content.
+Ace is a code editor written in JavaScript.
 
-## Installation
-1. Add copy the acesvg folder to the `addons/plugins/editors/` folder
+This repository has only generated files.
+If you want to work on ace please go to https://github.com/ajaxorg/ace instead.
 
-# Usage
-1. add `editor="acesvg"` to a text area field in your Perch template.
 
-## License
-This project is free, open source, and GPL friendly. You can use it for commercial projects, open source projects, or really almost whatever you want.
+here you can find pre-built files for convenience of embedding.
+it contains 4 versions
+ * [src](https://github.com/ajaxorg/ace-builds/tree/master/src)              concatenated but not minified
+ * [src-min](https://github.com/ajaxorg/ace-builds/tree/master/src-min)      concatenated and minified with uglify.js
+ * [src-noconflict](https://github.com/ajaxorg/ace-builds/tree/master/src-noconflict)      uses ace.require instead of require
+ * [src-min-noconflict](https://github.com/ajaxorg/ace-builds/tree/master/src-min-noconflict)      -
 
-## Donations
-This is free software but it took some time to develop.  If you use it, please send me a message I'd be interested to know which site uses it. If you appreciate the app and use it regularly, feel free to [Buy me a Beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6EBCDCCZRNSWW&source=url)!
 
-## Issues
-Create a GitHub Issue: https://github.com/cognetif/perch_acesvg/issues or better yet become a contributor.
+For a simple way of embedding ace into webpage see https://github.com/ajaxorg/ace-builds/blob/master/editor.html
+To see ace in action go to [kitchen-sink-demo](http://ajaxorg.github.com/ace-builds/kitchen-sink.html), [scrollable-page-demo](http://ajaxorg.github.com/ace-builds/scrollable-page.html), or [minimal demo](http://ajaxorg.github.com/ace-builds/editor.html) 
 
-## Developer
-Cognetif : Jordin Brown jbrown@cognetif.com
+
