@@ -45,24 +45,28 @@
     height: 850px;
 }
 
+.editor-wrap {
+    position:relative;
+}
+
 .editor-preview {
-    max-width: 100%;
-    padding: 30px;
-    border: 1px solid #ddd;
-    margin: 30px 0;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:26px;
+    left:0;
+    z-index:100;
+    background:rgba(255,255,255,0.5);
+    display:flex;
+    align-items:center;
+    justify-content: center;
 
 }
+
 .editor-preview svg {
-    width: 100%;
+    height: 50%;
 }
 
-@media screen and (min-width:750px) {
-
-    .editor-preview {
-        max-width: 50%;
-        padding: 30px;
-        border: 1px solid #ddd;
-        margin: 30px 25%;
-
-    }
+.btn-preview {
+margin-top:1rem;
 }
