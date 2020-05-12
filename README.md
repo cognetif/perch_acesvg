@@ -14,7 +14,10 @@ This is a SVG specific editor based on the ACE code editor plug in from Perch2, 
 
 
 ## Usage
-add editor="acesvg" to a text area field in your Perch template.
+1. Add editor="acesvg" to a text area field in your Perch template.
+2. You will need an `html` attribute on the field as it will be producing markup which will get encoded otherwise.
+3. When editing, you can preview changes to the svg by clicking the `Toggle Preview` button at the bottom left of the editor.
+
 
 ## License
 This project is free, open source, and GPL friendly. You can use it for commercial projects, open source projects, or really almost whatever you want. Refer to the [LICENSE](LICENSE).
